@@ -44,8 +44,6 @@ export GOOGLE_APPLICATION_CREDENTIALS=/path/to/your/credentials-key.json
 
 Face Detection demo using FACE_DETECTION feature.
 
-![Face Detection](images/face.jpg)
-
 ```bash
 $ python examples/face_detection.py images/face.jpg
 Joy Likelihood: 1
@@ -55,8 +53,6 @@ Joy Likelihood: 5
 ### Label Detection
 
 Label Detection demo using LABEL_DETECTION feature.
-
-![Label Detection](images/label.jpg)
 
 ```bash
 $ python examples/label_detection.py images/label.jpg
@@ -74,8 +70,6 @@ gadget
 
 Landmark Detection demo using LANDMARK_DETECTION feature.
 
-![Landmark Detection](images/landmark.jpg)
-
 ```bash
 $ python examples/landmark_detection.py images/landmark.jpg
 Found landmark: Statue of Liberty
@@ -85,8 +79,6 @@ Found landmark: Statue of Liberty
 
 Logo Detection demo using LOGO_DETECTION feature.
 
-![Logo Detection](images/logo.jpg)
-
 ```bash
 $ python examples/logo_detection.py images/logo.jpg
 Found logo: Starbucks
@@ -95,8 +87,6 @@ Found logo: Starbucks
 ### Text Detection
 
 Text Detection demo using TEXT_DETECTION feature.
-
-![Text Detection](images/text.png)
 
 ```bash
 $ python examples/text_detection.py images/text.png
@@ -131,7 +121,3 @@ To enable accurate image detection within the Google Cloud Vision API, images sh
 ## Licence
 
 [MIT](https://github.com/Hironsan/google-vision-sampler/blob/master/LICENSE)
-
-## Author
-
-[Hironsan](https://github.com/Hironsan)
